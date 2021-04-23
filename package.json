@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": ""
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/aranyak1/GameFacts/issues"
   },
-  "homepage": "https://github.com/aranyak1/GameFacts#readme"
+  "homepage": "https://github.com/aranyak1/GameFacts#readme",
+  "devDependencies": {
+    "parcel": "^2.0.0-beta.2"
+  }
 }
