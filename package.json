@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "parcel serve index.html",
+    "start": "parcel index.html",
     "build": "parcel build index.html"
   },
   "repository": {
@@ -22,7 +22,7 @@
     "parcel": "^2.0.0-rc.0"
   },
   "dependencies": {
-    "core-js": "^3.11.0",
-    "regenerator-runtime": "^0.13.7"
+    "core-js": "^3.16.1",
+    "regenerator-runtime": "^0.13.9"
   }
 }

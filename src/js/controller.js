@@ -3,6 +3,7 @@ import { fetchApi, getFetch } from './helper';
 import 'core-js/stable';
 import 'regenerator-runtime/runtime';
 
+console.log(self.crossOriginIsolated); 
 let url = `${config.API_URL}${config.API_KEY}&page_size=${config.ITEM_PER_PAGE}`;
 getFetch(url).then((data) => {
   console.log(data); 
